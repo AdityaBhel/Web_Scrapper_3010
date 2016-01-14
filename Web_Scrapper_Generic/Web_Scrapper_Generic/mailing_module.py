@@ -21,7 +21,7 @@ class mailing_main_class(object):
         self.connect(self.send_mail_pushButton_emailtab, QtCore.SIGNAL("clicked()"), self.mailing_operation)
         self.connect(self.select_file_pushButton_emailtab, QtCore.SIGNAL("pressed()"), self.getting_file_name_emailtab)
         self.connect(self.select_file_pushButton_emailtab_2, QtCore.SIGNAL("pressed()"), self.getting_file_name_emailtab_2)       
-
+#inintializing mailing operation 
     def mailing_operation(self):
         self.statusbox_listWidget_emailtab.addItem("Mailing Operations Started")
         print "Starting Mailing Operation"        
