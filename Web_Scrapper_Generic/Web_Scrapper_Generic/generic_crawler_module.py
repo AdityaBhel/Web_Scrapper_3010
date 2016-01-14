@@ -115,7 +115,7 @@ class generic_crawler_class(object):
         print "Stopping Crawler"
         #print in the terminal
         self.generic_crawler_class_object.terminate()
-        #
+        
 
     def result_crawled_links_listWidget(self, add_to_list):
         self.crawled_links_listWidget.addItem(add_to_list)        
